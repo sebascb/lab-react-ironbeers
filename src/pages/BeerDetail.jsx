@@ -20,7 +20,7 @@ function BeerDetails() {
       setBeerDetail(oneBeerData);
     }
     fetchData();
-  }, [])
+  }, [beerId])
 
   return (
     <div>

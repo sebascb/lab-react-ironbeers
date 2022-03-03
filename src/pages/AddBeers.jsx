@@ -57,7 +57,7 @@ function AddBeers() {
   return (
     <div>
       <Header />
-      <h2> Add beers </h2>
+      <h2> New beer </h2>
       <form onSubmit={handleSubmit}>
         {errorMessage && <p>{errorMessage}</p>}
 
